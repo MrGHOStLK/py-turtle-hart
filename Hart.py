@@ -1,0 +1,16 @@
+import turtle
+from turtle import  *
+color("pink","red")
+begin_fill()
+left(50)
+forward(200)
+circle(80,180)
+left(257)
+circle(80,180)
+forward(200)
+turtle.penup()
+turtle.goto(-100,138)
+turtle.pendown()
+turtle.write("I Love you..!",font=("Verdana",25,"italic"))
+end_fill()
+done()
